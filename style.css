@@ -1,0 +1,85 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+/* Main Container */
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.25);
+  padding: 30px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  width: 320px;
+}
+
+/* Title */
+.container h1 {
+  margin-bottom: 20px;
+}
+
+/* Input */
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #ff9800;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e68900;
+  transform: scale(1.05);
+}
+
+/* Weather Box */
+.weather-box {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.15);
+}
+
+.weather-box h2 {
+  margin-bottom: 10px;
+}
+
+.weather-box h3 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+/* Error Message */
+.error {
+  margin-top: 15px;
+  color: #ffdede;
+  font-weight: bold;
+}
